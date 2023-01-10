@@ -1,0 +1,130 @@
+{% extends 'main.html' %}
+{% block content %}
+<style>
+    form {
+        width: 500px;
+        margin: 0 auto;
+      }
+</style>
+
+
+
+
+        <div class="app-main__outer">
+                    <div class="app-main__inner">
+                        <div class="app-page-title">
+                            <div class="page-title-wrapper">
+                                <div class="page-title-heading">
+                                    <div class="page-title-icon">
+                                        <i class="pe-7s-car icon-gradient bg-mean-fruit">
+                                        </i>
+                                    </div>
+                                    <div><b>Create Product</b>
+                                    </div>
+                                </div>
+                                <div class="page-title-actions">
+                                </div>   
+                             </div>
+                        </div>     
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="main-card mb-3 card">
+                                    <div class="container">
+                                        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 edit_information">
+                                            <form action=""  method="POST">	
+                                                <h3 class="text-center">Edit Personal Information</h3>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="form-group">
+                                                            <label class="profile_details_text">Product Title</label>
+                                                            <input type="text" name="first_name" class="form-control" value="" required >
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="form-group">
+                                                            <label class="profile_details_text">Label:</label>
+                                                            <input type="text" name="text" class="form-control" value="" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="form-group">
+                                                            <label class="profile_details_text">Upload Image</label>
+                                                            <input type="image" name="phone" class="form-control" value="" >
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="form-group">
+                                                            <label class="profile_details_text">Category</label>
+                                                            <input type="text" name="category" class="form-control" value="" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <div class="form-group">
+                                                            <label class="profile_details_text">Price:</label>
+                                                            <input type="number" name="nationality" class="form-control" value="" required>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-block text-center card-footer">
+                                                    <button class="mr-2 btn-icon btn-icon-only btn btn-outline-danger"><i class="pe-7s-trash btn-icon-wrapper"> </i></button>
+                                                    <button class="btn-wide btn btn-success">Save</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div> 
+                    <!-- <div class="app-wrapper-footer">
+                        <div class="app-footer">
+                            <div class="app-footer__inner">
+                                <div class="app-footer-left">
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                Footer Link 1
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                Footer Link 2
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="app-footer-right">
+                                    <ul class="nav">
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                Footer Link 3
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                <div class="badge badge-success mr-1 ml-0">
+                                                    <small>NEW</small>
+                                                </div>
+                                                Footer Link 4
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   -->
+                  </div>
+        </div>
+    </div> 
+    
+    {% endblock %}
